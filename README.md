@@ -71,7 +71,7 @@ If you find PPDet useful for your research, please cite our paper as follows.
 BibTeX entry:
 ```
 @inproceedings{PPDet,
-  authors = {Nermin Samet and Samet Hicsonmez and Emre Akbas},
+  author = {Nermin Samet and Samet Hicsonmez and Emre Akbas},
   title = {Reducing Label Noise in Anchor-Free Object Detection},
   booktitle = {British Machine Vision Conference (BMVC)},
   year = {2020},
