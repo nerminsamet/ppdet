@@ -2,9 +2,9 @@
 
 Official PyTroch implementation of PPDet based on open-mmlab's mmdetection.
 
-> [**Reducing Label Noise in Anchor-Free Object Detection**](https://arxiv.org/abs/2007.02355),            
+> [**Reducing Label Noise in Anchor-Free Object Detection**](https://arxiv.org/abs/2008.01167),            
 > Nermin Samet, Samet Hicsonmez, [Emre Akbas](http://user.ceng.metu.edu.tr/~emre/),        
-> *BMVC 2020. ([arXiv pre-print](https://arxiv.org/abs/2007.02355))*        
+> *BMVC 2020. ([arXiv pre-print](https://arxiv.org/abs/2008.01167))*        
 
 ## Summary
 Current anchor-free detectors label all features within a ground-truth box as positive. However features within a ground-truth box may come from (i) the background, (ii) occluders or (iii) non-discriminatory parts of the object. PPDet avoids treating such features as positive. For example in the image below, the colored dots show the locations whose predictions are pooled to generate the final detection shown in the green bounding box. The color denotes the contribution weight. Highest contributions are coming from the objects and not occluders or background areas.
