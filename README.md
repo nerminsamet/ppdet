@@ -14,7 +14,7 @@ Current anchor-free detectors label all features within a ground-truth box as po
 Current anchor-free object detectors label all the features that spatially fall inside a predefined central region of a ground-truth box as positive. This approach causes la- bel noise during training, since some of these positively labeled features may be on the background or an occluder object, or they are simply not discriminative features. In this paper, we propose a new labeling strategy aimed to reduce the label noise in anchor-free detectors. We sum-pool predictions stemming from individual features into a single pre- diction. This allows the model to reduce the contributions of non-discriminatory features during training. We develop a new one-stage, anchor-free object detector, PPDet, to em- ploy this labeling strategy during training and a similar prediction pooling method during inference. On the COCO dataset, PPDet achieves the best performance among anchor- free top-down detectors and performs on-par with the other state-of-the-art methods. It also outperforms all state-of-the-art methods in the detection of small objects (AP<sub>s</sub> 31.4).
 
 ## Highlights
-- PPDet is a new relaxed labelling strategy for anchor-free object detection.
+- PPDet (Prediction Pooling Detector) is a new relaxed labelling strategy for anchor-free object detection.
 - To reduce the contribution of non-discriminatory features during training, PPDet **sum-pool** predictions stemming from individual features into a single prediction.
 - PPDet is uses a novel prediction pooling strategy in training and inference.
 - PPDet is state-of-the-art method in the detection of small objects with AP<sub>s</sub> 31.4.
