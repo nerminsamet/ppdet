@@ -72,7 +72,7 @@ BibTeX entry:
 ```
 @inproceedings{PPDet,
   author = {Nermin Samet and Samet Hicsonmez and Emre Akbas},
-  title = {Reducing Label Noise in Anchor-Free Object Detection},
+  title = {Reducing {L}abel {N}oise in {A}nchor-{F}ree {O}bject {D}etection},
   booktitle = {British Machine Vision Conference (BMVC)},
   year = {2020},
 }
