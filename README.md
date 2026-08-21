@@ -21,11 +21,14 @@ Current anchor-free object detectors label all the features that spatially fall 
 - Our best model achieves *46.3* AP on COCO test-dev.
 
 ## Results on COCO val2017
+
+Pretrained models are available in [HF](https://huggingface.co/samethi/ppdet).
+
 | Backbone  | Inf time (fps) | AP / AP<sub>50</sub> | Multi-scale AP / AP<sub>50</sub>| Download |
 |:---------:|:---------------:|:------:|:------:|:--------:|
-| ResNet-50  | 8.7           | 36.3 / 54.3   | 39.9 / 56.9  | [model](https://drive.google.com/file/d/1z29WWEyF3_fcUYNZ4sluP_sRd95dJATL/view?usp=sharing) |
-| ResNet-101 |      7.1          | 40.5 / 59.5   | 45.0 / 63.0   | [model](https://drive.google.com/file/d/1a2K4rUE7S9Bck2vqK7KENVq0cB1qI2Dv/view?usp=sharing) |
-| ResNeXt-101-64x4d |   4.1      | 41.8 / 61.3   | 46.1 /  64.3  | [model](https://drive.google.com/file/d/1a58emT4Gw2ORdcF0MPVLJbx6JrkmJmxM/view?usp=sharing) |
+| ResNet-50  | 8.7           | 36.3 / 54.3   | 39.9 / 56.9  | [model](https://huggingface.co/samethi/ppdet/blob/main/ppdet_r50_fpn_4gpu_1x.pth) |
+| ResNet-101 |      7.1          | 40.5 / 59.5   | 45.0 / 63.0   | [model](https://huggingface.co/samethi/ppdet/blob/main/ppdet_ms_r101_fpn_4gpu_2x_align.pth) |
+| ResNeXt-101-64x4d |   4.1      | 41.8 / 61.3   | 46.1 /  64.3  | [model](https://huggingface.co/samethi/ppdet/blob/main/ppdet_ms_x101_64x4d_fpn_4gpu_2x_align.pth) |
 
 
 - *For multi scale testing we used scales of (800, 480), (1067, 640), (1333, 800), (1600, 960), (1867, 1120) and (2133, 1280).*
